@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Add your meta tags, title, and CSS/JS links here -->
+  <!-- ... -->
+  <style>
+    /* Your existing CSS styles here */
+
+    /* Add new CSS for small screens */
+    @media (max-width: 768px) {
+      .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .image-container img {
+        max-width: 48%;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Your existing HTML content here -->
+
+  <div class="container">
+    <!-- Other content... -->
+
+    <div class="card my-3 text-center">
+      <div class="card-body text-center">
+        <h2 class="card-title">Enjoy your Apple Granola Yogurt with Honey!</h2>
+        <!-- Wrap your images in a container for small screens -->
+        <div class="image-container">
+          <img src="images/granola.jpg" alt="Image 1">
+          <img src="images/another-image.jpg" alt="Image 2">
+        </div>
+      </div>
+    </div>
+
+    <!-- More content... -->
+  </div>
+
+  <!-- Your footer and closing tags... -->
+</body>
+</html>

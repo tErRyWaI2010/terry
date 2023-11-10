@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding-left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar {
+    background-color: red;
+}
+.navbar .nav-link {
+    color: white; 
+}
+.navbar-brand {
+    color: white;
+}
